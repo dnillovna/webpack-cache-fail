@@ -1,0 +1,26 @@
+{
+  "name": "webpack-cache-test",
+  "friendlyName": "webpack-cache-test",
+  "version": "1.0.0",
+  "dependencies": {
+    "datagrok-api": "^1.18.0",
+    "cash-dom": "latest",
+    "dayjs": "latest",
+    "@datagrok-libraries/utils": "^4.1.9"
+  },
+  "devDependencies": {
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "eslint": "latest",
+    "eslint-config-google": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest"
+  },
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint src --ext .ts",
+    "lint-fix": "eslint src --ext .ts --fix"
+  }
+}
